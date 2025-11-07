@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Quantum Apex — Live Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Quantum Apex — Live Dashboard</h1>
+      <div id="serverTime">Server: —</div>
+    </header>
+
+    <section class="panels">
+      <div class="card" id="activeCard">
+        <h2>Active Signal</h2>
+        <div id="active">No signal yet</div>
+      </div>
+
+      <div class="card" id="statsCard">
+        <h2>Stats</h2>
+        <div id="stats">No data</div>
+      </div>
+
+      <div class="card" id="historyCard">
+        <h2>Recent History</h2>
+        <ul id="history"></ul>
+      </div>
+    </section>
+    <footer>Owner: David Mamun William</footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+  </html>
